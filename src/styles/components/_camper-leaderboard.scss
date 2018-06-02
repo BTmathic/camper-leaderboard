@@ -1,0 +1,103 @@
+body {
+    background: gray;
+    min-width: 750px;
+}
+
+.image img {
+    height: auto;
+    width: 4.2rem;
+}
+
+.leaderboard {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.top-bar {
+    background: #006400;
+    height: 7rem;
+}
+
+.title {
+    color: white;
+    font-size: 300%;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.logo {
+    height: auto;
+    padding-left: 0.5rem;
+    padding-top: 1.4rem;
+    width: 6rem;
+}
+
+.inline-logo {
+    padding-top: 0.8rem;
+}
+
+.green-user { background: #006400; color: white; }
+.user { background: white; }
+
+.header {
+    background: white;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.header, .user, .green-user {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+}
+
+.rank {
+    font-size: 250%;
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+    margin-top: auto;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    width: 10rem;
+}
+
+.image {
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+    padding-left: 0.4rem;
+    padding-top: 0.4rem;
+    width: 4rem;
+}
+
+.name {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    width: 19rem;
+}
+
+.alltime-points {
+    padding-right: 0.3rem;
+}
+
+.recent-points, .alltime-points {
+    border: 1px solid black;
+    padding-top: 1.5rem;
+    text-align: center;
+    width: 22rem;
+}
+
+.alltime-points {
+    border-right: 2px solid black;
+    padding-right: 2px;
+}
+
+.sort {
+    cursor: pointer;
+}
