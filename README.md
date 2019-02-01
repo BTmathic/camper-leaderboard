@@ -8,11 +8,13 @@ Displays the top point earners on the Free Code Camp platform, either by all tim
 
 ### Data
 
+**These no longer appear to exist, and there is no replacement available, so this app will not function properly unless they provide this information again**
+
 * [All time](https://fcctop100.herokuapp.com/api/fccusers/top/alltime)
 * [Last 30 Days](https://fcctop100.herokuapp.com/api/fccusers/top/recent)
 
 ### Build Tools
 
-* Webpack
+* Parcel
 * Yarn
 * Babel
